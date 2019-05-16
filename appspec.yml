@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /opt/vote-py/
+    destination: /opt/my-app/
 
 permissions:
 - object: /
@@ -13,10 +13,10 @@ permissions:
 hooks:
   BeforeInstall:
     - location: script/beforeInstall.sh
-      timeout: 300
+      timeout: 100
       runas: root
     
   ApplicationStart:
      - location: script/start.sh
-       timeout: 300
+       timeout: 100
        runas: root
