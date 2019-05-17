@@ -1,4 +1,4 @@
 #!/bin/bash
-cd my-app
+cd reactapp/my-app
 nohup npm start > /dev/null 2>&1 &
 
