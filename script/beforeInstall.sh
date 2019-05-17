@@ -1,3 +1,3 @@
 #!/bin/bash
-pwd > out.txt
-pkill node
+#pwd > out.txt
+#pkill node
