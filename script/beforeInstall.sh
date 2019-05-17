@@ -1,3 +1,2 @@
 #!/bin/bash
-pkill -f node
-
+#pkill -f node
