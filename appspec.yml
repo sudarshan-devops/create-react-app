@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /
     destination: /opt/reactapp
-  - source: /opt/reactapp/my-app
+  - source: /reactapp/my-app
     destination: /opt/my-app
 
 permissions:
