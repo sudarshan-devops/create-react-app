@@ -3,6 +3,8 @@ os: linux
 files:
   - source: /
     destination: /opt/reactapp
+  - source: /opt/reactapp/my-app
+    destination: /opt/my-app
 
 permissions:
 - object: /
