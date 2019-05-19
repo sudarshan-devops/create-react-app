@@ -2,5 +2,4 @@
 cd /opt
 npx create-react-app my-app
 cd my-app
-npm run-script build
-pkill -f node
+nohup npm run-script build > /dev/null 2>&1 &
